@@ -1,2 +1,0 @@
-# goit_hw
-homeworks
