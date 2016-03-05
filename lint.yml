@@ -13,3 +13,5 @@ linters:
     enabled: true
   VendorPrefix:
     enabled: false
+  Comment:
+    enabled: false
