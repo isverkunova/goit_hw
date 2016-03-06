@@ -14,58 +14,75 @@ body {
     border: 2px solid #e0e0e0;
     background-color: #fff;
 }
-     /* END main block */
+/* END resume */
 
-h1 {
+.student-name {
     margin-bottom: 20px;
     font-size: 22px;
     text-align: center;
 }
 
-p {
-    margin: 21px 8px;
-}
-
-ul {
-    margin-top: 33px;
-    margin-bottom: 11px;
-    padding: 0 21px;
-}
-
-li {
-    margin: 10px;
-}
-
-img {
+.student-avatar {
     display: block;
     width: 100px;
     margin: 10px auto;
 }
 
-.resume > div {
-    margin: 0 50px;
-    padding: 5px;
-}
-
-.container {
-    border-bottom: 1px solid #000;
-}
-
-.student {
-    margin: 10px 8px 12px;
+.student-description {
+    margin: 10px 0 12px;
     font-size: 18px;
 }
+/* END student */
 
-.indent-num {
-    margin: -14px 8px 31px;
-    font-size: 17px;
+.study-reason {
+    margin: 22px 0 34px;
 }
 
-.indent-link {
-    margin: -12px 8px 15px;
-    font-size: 17px;
+.study-reason-list {
+    margin: 0 0 13px;
+    padding: 0 7px;
 }
 
-.feedback {
-    margin: 21px 8px -12px;
+.study-reason-list li {
+    margin: 8px 0 0 17px;
+}
+/* END study-reason */
+
+.telephone-title {
+    margin: 22px 0 0;
+}
+
+.telephone-number {
+    margin: 8px 0 0;
+    /*font-size: 17px;*/
+}
+/* END telephone */
+
+.vk-title {
+    margin: 34px 0 0;
+}
+
+.vk-link {
+    display: block;
+    margin: 7px 0 13px;
+    font-size: 17px;
+}
+/* END vk */
+
+.feedback-title {
+    margin: 21px 0 9px;
+}
+
+.feedback-text {
+    margin: 0;
+}
+/* END feedback */
+
+.container {
+    margin: 0 50px;
+    padding: 5px 12px;
+}
+
+.border {
+    border-bottom: 1px solid #000;
 }
