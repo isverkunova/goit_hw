@@ -9,7 +9,7 @@ body {
     width: 512px;
     height: 707px;
     margin: 10px auto;
-    padding-top: 28px;
+    padding-top: 48px;
     padding-bottom: 15px;
     border: 2px solid #e0e0e0;
     background-color: #fff;
@@ -18,7 +18,7 @@ body {
 
 .container {
     margin: 0 50px;
-    padding: 5px 12px;
+    padding: 0 12px;
 }
 
 .border {
@@ -26,7 +26,7 @@ body {
 }
 
 .student-name {
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     font-size: 22px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ body {
 .student-avatar {
     display: block;
     width: 100px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .student-description {
