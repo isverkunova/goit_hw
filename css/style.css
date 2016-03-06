@@ -3,13 +3,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #efefef;
+    font-family: 'Times New Roman';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 .resume {
     width: 512px;
     height: 707px;
     margin: 10px auto;
-    padding-top: 48px;
+    padding-top: 19px;
     padding-bottom: 15px;
     border: 2px solid #e0e0e0;
     background-color: #fff;
@@ -18,7 +21,7 @@ body {
 
 .container {
     margin: 0 50px;
-    padding: 0 12px;
+    padding: 29px 12px 17px;
 }
 
 .border {
@@ -44,31 +47,36 @@ body {
 /* END student */
 
 .study-reason {
-    margin: 0;
+    margin: 0 0 32px;
 }
 
 .study-reason-list {
     margin: 0;
-    padding: 0 7px;
+    padding: 0 24px;
 }
 
 .study-reason-list li {
-    margin: 0;
+    margin-bottom: 8px;
 }
+
+.study-reason-list li:last-child {
+    margin-bottom: 0;
+}
+
 /* END study-reason */
 
 .telephone-title {
-    margin: 0;
+    margin: 0 0 7px;
 }
 
 .telephone-number {
-    margin: 0;
+    margin: 0 0 34px;
     /*font-size: 17px;*/
 }
 /* END telephone */
 
 .vk-title {
-    margin: 0;
+    margin: 0 0 7px;
 }
 
 .vk-link {
@@ -79,7 +87,7 @@ body {
 /* END vk */
 
 .feedback-title {
-    margin: 0;
+    margin: 0 0 7px;
 }
 
 .feedback-text {
