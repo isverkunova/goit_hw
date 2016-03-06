@@ -16,6 +16,15 @@ body {
 }
 /* END resume */
 
+.container {
+    margin: 0 50px;
+    padding: 5px 12px;
+}
+
+.border {
+    border-bottom: 1px solid #000;
+}
+
 .student-name {
     margin-bottom: 20px;
     font-size: 22px;
@@ -29,60 +38,51 @@ body {
 }
 
 .student-description {
-    margin: 10px 0 12px;
+    margin: 10px 0 0;
     font-size: 18px;
 }
 /* END student */
 
 .study-reason {
-    margin: 22px 0 34px;
+    margin: 0;
 }
 
 .study-reason-list {
-    margin: 0 0 13px;
+    margin: 0;
     padding: 0 7px;
 }
 
 .study-reason-list li {
-    margin: 8px 0 0 17px;
+    margin: 0;
 }
 /* END study-reason */
 
 .telephone-title {
-    margin: 22px 0 0;
+    margin: 0;
 }
 
 .telephone-number {
-    margin: 8px 0 0;
+    margin: 0;
     /*font-size: 17px;*/
 }
 /* END telephone */
 
 .vk-title {
-    margin: 34px 0 0;
+    margin: 0;
 }
 
 .vk-link {
     display: block;
-    margin: 7px 0 13px;
+    margin: 0;
     font-size: 17px;
 }
 /* END vk */
 
 .feedback-title {
-    margin: 21px 0 9px;
+    margin: 0;
 }
 
 .feedback-text {
     margin: 0;
 }
 /* END feedback */
-
-.container {
-    margin: 0 50px;
-    padding: 5px 12px;
-}
-
-.border {
-    border-bottom: 1px solid #000;
-}
